@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>form validation</title>
+  </head>
+  <body>
+    <h1>Registration</h1>
+    <form action="" method="POST" enctype="multipart/form-data"><!-- form starts here. -->
+      <label>User id:</label><br>
+      <input name="user id" type="text/number" value="" placeholder="Enter your user ID" size="" min="5" max="12" required><br><!-- the required attribute makes sure a field is not left blank. -->
+      <label>Password:</label><br>
+      <input name="password" type="text/number" value="" placeholder="Insert your password" size""  min="7" max="12" min="5" required><br>
+      <lable>Name:</lable><br>
+      <input name="Name" type="text" value="" placeholder="Insert your name" required><br>
+      <lable>Address:</lable><br>
+      <label>Country:</label><br>
+        <select name="country">
+          <option value="South Africa">South Africa</option>
+          <option value="Mexico">Mexico</option>
+          <option value="Sweden">Sweden</option>
+          <option value="Brazil">Brazil</option>
+        </select><br>
+      <input name="Address" type="text" value="" placeholder="Insert your address"><br>
+      <lable>ZIP code:</lable><br>
+      <input name="ZIP code" type="number" value="" placeholder="Enter your ZIP code" required><br>
+      <label>Email:</label><br>
+      <input name="" type="email" value="" placeholder="Enter your e-mail"><br>
+      <label>Sex:</label><br>
+      <input type="radio" name="visitation" Value="Male" checked requred>Male
+      <input type="radio" name="visitation" Value="Female">Female<br>
+      <label>Language:</label><br>
+      <input type="checkbox" name="preference" value="English">English<br>
+      <input type="checkbox" name="preference" value="national chain coffee shops or small">Non English<br>
+      <label>About:</label>
+      <textarea placeholder="leave a message" name="" type="text" value="" rows="10" col="100"></textarea><br>
+      <input type="submit" value="submit">
+
+    </form><!-- form ends here. -->
+  </body>
+</html>

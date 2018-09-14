@@ -1,0 +1,68 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html"; meta charset="UTF-8">
+    <title>Nested tables</title>
+  </head>
+  <style>
+  table, td{
+    border:1px solid black;
+    border-collapse:collapse; text-align: center}
+    .orange{background-color: orange}
+    .yellow{background-color: yellow}
+  </style>
+  <body>
+    <h1>Nested tables</h1>
+      <table border="3" style="width:20%"><!-- The first table starts here. -->
+        <tr>
+          <td>1</td>
+          <td colspan="3">2</td>
+
+        </tr>
+        <tr>
+          <td rowspan="3">3</td><!-- rowspan attribute combines two rows. -->
+          <td class="orange">4</td>
+          <td class="orange">5</td>
+          <td rowspan="2" class="yellow">6</td>
+        </tr>
+        <tr>
+          <td class="orange">7</td>
+          <td class="orange">8</td>
+        </tr>
+        <tr>
+          <td colspan="2" class="yellow">9</td>
+          <td class="yellow">10</td>
+        </tr>
+      </table><br><!-- the first table ends here. -->
+
+      <table border="3" style="width:20%">
+        <tr>
+          <td>1</td>
+          <td colspan="2">2</td><!-- the rowspan attribute combines two columns. -->
+
+        </tr>
+        <tr>
+          <td rowspan="2">3</td>
+          <td cellpadding="0px">
+            <table style="width: 100%;">
+              <tr>
+                <td class="orange">4</td>
+                <td class="orange">5</td>
+              </tr>
+              <tr>
+                <td class="orange">7</td>
+                <td class="orange">8</td>
+              </tr>
+            </table>
+          </td>
+          <td class="yellow">6</td>
+        </tr>
+              <tr>
+                <td class="yellow">9</td>
+                <td class="yellow">10</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table
+  </body>
+</html>

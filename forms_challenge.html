@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Registration form</h1>
+    <form>
+      <label>Name:</label><br>
+      <input name="" type="text" value="" placeholder="Enter your name"><br>
+      <label>Surname:</label><br>
+      <input name="" type="text" value="" placeholder="Enter your surname"><br>
+      <label>Cell number:</label><br>
+      <input name="" type="number" value="" placeholder="Enter your cell number"><br>
+      <label>Address:</label><br>
+      <input name="" type="text/number" value="" placeholder="Enter your home address"><br>
+      <label>Gender:</label><br>
+        <select name="gender">
+          <option value="Male">Male</option>
+          <option value="Female">female</option>
+        </select><br>
+      <label>Date of birth:</label><br>
+      <input name="" type="date" value="" placeholder="Enter your Date of  birth"><br>
+      <label>Password:</label><br>
+      <input name="" type="password" value="" placeholder="Enter your password"><br>
+      <label>How often do you visit the coffee shop:</label><br>
+      <input type="radio" name="visitation" Value="once a week" checked requred>once a week<br>
+      <input type="radio" name="visitation" Value="once a month">once a month<br><!-- the radio value sets a check list.. -->
+      <input type="radio" name="visitation" Value="often">often<br>
+      <input type="radio" name="visitation" Value="once a while">once a while<br>
+      <label>What is your favourite coffee shop. Where is it locaed?:</label><br>
+      <textarea placeholder="" name="" type="text" value="" rows="5"></textarea><br>
+      <label>What do you typically order to drink:</label><br>
+      <input type="radio" name="drink" Value="coffee" checked requred>coffee<br>
+      <input type="radio" name="drink" Value="tea" >tea<br>
+      <input type="radio" name="drink" Value="coke">coke<br>
+      <input type="radio" name="drink" Value="fanta">fanta<br>
+
+      <label>Do you prefer:</label><br>
+      <input type="checkbox" name="preference" value="small">small<br><!-- the checkbox value in the type attribute sets a checkbox. -->
+      <input type="checkbox" name="preference" value="national chain coffee shops or small">national chain coffee shops or small<br>
+      <input type="checkbox" name="preference" value="privately owned coffee shops">privately owned coffee shops<br>
+
+      <label>Message:</label><br>
+      <textarea placeholder="leave a message" name="" type="text" value="" rows="10" col="100"></textarea><br>
+
+      <button type="submit">Send survey</button><!-- the submit button allows the person answering the form to submit it. -->
+      <button type="reset">reset</button><!-- the reset button allows the person completing the for to reset it and start over. -->
+    </form>
+  </body>
+</html>
